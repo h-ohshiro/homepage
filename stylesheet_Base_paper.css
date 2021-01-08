@@ -1,0 +1,216 @@
+body{
+  font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro", "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "メイリオ", sans-serif;
+  background-color: ;
+}
+header{
+  height: 70px;
+}
+.header-left{
+}
+.header-left h1{
+  font-size:15px;
+  line-height: 70px;
+}
+.header-left span{
+  padding-left: 10px;
+
+}
+.header-left img{
+  width: 200px;
+}
+.header-left img:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+.container-right{
+  float:right;
+  width: 250px;
+  height: 300px;
+  margin-top: 100px;
+  margin-left: 300px;
+}
+/*枠デザイン*/
+.profile_box {
+margin: 1em 0;
+position: relative;
+padding: 0.25em 1em;
+border: solid 1px #BBBBBB	;
+border-radius: 3px 0 3px 0;
+font-size: 12px;
+}
+.profile_box:before,.profile_box:after
+{
+content: '';
+position: absolute;
+width:10px;
+height: 10px;
+border: solid 1px #BBBBBB	;
+border-radius: 50%;
+}
+.profile_box:after {
+top:-12px;
+left:-12px;
+}
+.profile_box:before {
+bottom:-12px;
+right:-12px;
+}
+.profile_box .box-title {
+font-size: 18px;
+line-height:1.8;
+background: #BBBBBB	; /*タイトルの背景色*/
+padding: 4px;
+text-align: center;
+color: #FFF; /*文字色*/
+font-weight: bold;
+letter-spacing: 0.05em;
+border-radius: 8px;
+}
+/*内容*/
+.profile_center{
+text-align: center;
+margin: 10px 15px 0 0;
+}
+/*プロフィール画像*/
+.profile_figure {
+width:150px;
+height:150px;
+border-radius: 50%; /*丸くする*/
+border: solid 3px #aaa	; /*枠線*/
+}
+/*名前*/
+.profile_name {
+padding: 15px 20px;
+font-weight:bold;
+font-size:16px;
+}
+/*自己紹介文*/
+.profile_box p {
+padding: 15px 20px;
+margin: 0;
+}
+/*リスト*/
+.profile_box ul {
+padding: 0.5em 1em 0.5em 2.3em;
+position: relative;
+}
+.profile_box ul li {
+line-height: 1.5;
+padding: 0.5em 0;
+list-style-type: none!important;
+}
+.profile_box ul li:before {
+font-weight:900;
+position: absolute;
+left : 1em;/*左端からのアイコンまでの距離*/
+color: #ffcb8a;/*アイコン色*/
+}
+.fas{
+  padding-right:5px;
+}
+.tag{
+  height: 40px;
+  width: 100%;
+  background-color: #4169e1;
+}
+.tag a{
+  color: white;
+  text-decoration: none;
+}
+.tag ul{
+  list-style: none;
+
+}
+.tag li{
+  float: left;
+  line-height: 40px;
+
+}
+
+.btn{
+  color:white;
+  text-align: center;
+  width: 100px;
+}
+.btn:hover{
+  background-color: #b0c4de;
+  /* opacity: 0.7; */
+  transition: 0.5s;
+  cursor: pointer;
+}
+.list{
+
+  border-left: 1px solid white;
+
+}
+.list-a{
+  border-left: 1px solid white;
+}.list-z{
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+
+.logo{
+  width: 200px;
+  float: left;
+}
+
+.tree{
+  margin-left: 10px;
+  margin-top: 100px;
+}
+.tree p{
+  border-bottom: 2px solid #b0c4de;
+  line-height: 25px;
+  padding-bottom: 3px;
+  font-size: 14px;
+}
+.container{
+  width:1200px;
+  display: flex;
+}
+
+.container-left{
+  width:600px;
+  margin-left:10px;
+}
+.top-wrapper{
+  color: #555;
+  height: 350px;
+  width: 100%;
+}
+.top-wrapper h2{
+  border-left: 4px solid #00BFFF;
+  padding-left: 10px;
+  letter-spacing: 7px;
+}
+.top-wrapper p{
+  font-size: 15px;
+  line-height: 40px;
+  padding-left: 10px;
+}
+.contents{
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+.contents-title{
+  margin-bottom: 50px;
+}
+.contents a{
+  display: list-item;
+  list-style: none;
+  letter-spacing: 2px;
+  margin: 10px 0 0 10px;
+  font-size:17px;
+  text-decoration: none;
+  color: #555;
+}
+.content a:hover{
+  background-color: #ddffff;
+  transition: 0.5s;
+}
+.content{
+  border: 1px solid #DDD;
+  border-radius: 5px;
+  padding: 10px;
+}
